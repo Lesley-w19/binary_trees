@@ -4,8 +4,8 @@
  * binary tree using pre-order traversal
  *
  * @tree:  is a pointer to the root node of the tree to traverse
- * @fun:  is a pointer to a function to call for each node.
- * The value in the node must be passed as a parameter to this function.
+ * @func:  is a pointer to a function to call for each node.
+ * @int: The value in the node must be passed as a parameter to this function.
  *
  */
 
