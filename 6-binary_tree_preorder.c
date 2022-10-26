@@ -20,6 +20,14 @@ if (func == NULL)
 return;
 
 /* the func parameter int binary_tree_s::n */
+/*
+Algorithm Preorder(tree)
+
+Visit the root.
+Traverse the left subtree, i.e., call Preorder(left->subtree)
+Traverse the right subtree, i.e., call Preorder(right->subtree) 
+*/
+
 func(tree->n);
 binary_tree_preorder(tree->left, func);
 binary_tree_preorder(tree->right, func);
