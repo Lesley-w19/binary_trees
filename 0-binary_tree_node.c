@@ -15,11 +15,11 @@ if (node == NULL)
 return (NULL);
 
 node->parent = parent;
-// initialize right n left nodes
+/* initialize right n left nodes */
 node->left = NULL;
 node->right = NULL;
 
-// assign to value
+/* assign to value */
 node->n = value;
 
 return (node);
