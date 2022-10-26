@@ -11,3 +11,4 @@
 6. Pre-order traversal
 7. In-order traversal
 8. Post-order traversal
+9. Height
