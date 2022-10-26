@@ -20,13 +20,13 @@ if (func == NULL)
 return;
 
 /* the func parameter int binary_tree_s::n */
-/*
-Algorithm Postorder(tree)
-
-Traverse the left subtree, i.e., call Postorder(left->subtree)
-Traverse the right subtree, i.e., call Postorder(right->subtree)
-Visit the root
-*/
+/**
+ * Algorithm Postorder(tree)
+ *
+ * Traverse the left subtree, i.e., call Postorder(left->subtree)
+ * Traverse the right subtree, i.e., call Postorder(right->subtree)
+ * Visit the root
+ */
 
 binary_tree_postorder(tree->left, func);
 binary_tree_inorder(tree->right, func);
