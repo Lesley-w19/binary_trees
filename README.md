@@ -14,4 +14,6 @@
 9. Height
 10. Depth
 
+35. Big O #AVL Tree
+
 41. Big O #Binary Heap
