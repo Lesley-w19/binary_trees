@@ -20,7 +20,15 @@ if (func == NULL)
 return;
 
 /* the func parameter int binary_tree_s::n */
-func(tree->n);
+/*
+Algorithm Inorder(tree)
+
+Traverse the left subtree, i.e., call Inorder(left->subtree)
+Visit the root.
+Traverse the right subtree, i.e., call Inorder(right->subtree)
+*/
+
 binary_tree_inorder(tree->left, func);
+func(tree->n);
 binary_tree_inorder(tree->right, func);
 }
