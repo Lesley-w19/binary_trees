@@ -14,7 +14,7 @@ if (node == NULL)
 return (0);
 
 /* check if node is a root /if is null */
-if (node->parent != NULL)
+if (node->parent == NULL)
 return (1);
 
 return (0);
