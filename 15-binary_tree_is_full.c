@@ -20,5 +20,4 @@ left_full = binary_tree_is_full(tree->left);
 right_full = binary_tree_is_full(tree->right);
 
 return (left_full * right_full);
-
 }
