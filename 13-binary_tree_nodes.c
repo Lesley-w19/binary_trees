@@ -16,7 +16,7 @@ size_t left_nodes, right_nodes;
 if (tree == NULL)
 return (0);
 
-if (tree->left && tree->right)
+if (tree->left == NULL && tree->right == NULL)
 return (0);
 
 left_nodes = binary_tree_nodes(tree->left);
