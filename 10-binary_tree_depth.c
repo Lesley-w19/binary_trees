@@ -13,7 +13,7 @@ size_t depth;
 if (tree == NULL)
 return (0);
 
-depth = tree->parent ? 1 + binary_tree_depth(tree) : 0;
+depth = tree->parent ? 1 + binary_tree_depth(tree->parent) : 0;
 
 return (depth);
 }
