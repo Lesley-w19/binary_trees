@@ -8,14 +8,14 @@
  */
 int binary_tree_is_full(const binary_tree_t *tree)
 {
-int left_height, right_height;
+int left_full, right_full;
 
 if (tree == NULL)
 return (0);
 
-left_height = binary_tree_is_full(tree->left);
-right_height = binary_tree_is_full(tree->right);
+left_full = binary_tree_is_full(tree->left);
+right_full = binary_tree_is_full(tree->right);
 
-return (left_height * right_height);
+return (left_full * right_full);
 
 }
